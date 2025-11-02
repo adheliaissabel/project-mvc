@@ -5,8 +5,8 @@ use App\Core\Controller;
 class HomeController extends Controller {
     public function index() {
         $data = [
-            'title' => 'Home Page',
-            'message' => 'Selamat datang di MVC Framework'
+            'title' => 'Tugas MVC Framework',
+            'message' => 'Selamat datang di website tugas Adhelia Issabel'
         ];
         
         $this->view('home.index', $data);
